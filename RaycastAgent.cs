@@ -4,8 +4,6 @@ using Unity.MLAgents.Sensors;
 using Unity.MLAgents.Actuators;
 
 // Agentクラスの拡張クラス「RollerAgent」の定義
-// エージェント：水色のボール
-// ターゲット：黄色の箱
 public class RaycastAgent : Agent
 {
     public Transform target; //ターゲット
